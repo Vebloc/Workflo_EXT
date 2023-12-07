@@ -1,0 +1,13 @@
+build/*
+/.vscode/*
+/.idea
+/node_modules
+**/.DS_Store
+/package-lock.json
+**/.env
+/public/uploads/*
+client/node_modules
+client/build/*
+client/.env
+gcs-cors.json
+client/.env
