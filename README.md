@@ -1,6 +1,6 @@
-# Workflo Onboarding
+# Workflo Interns project
 
-Welcome to the project onboarding feature
+Welcome to the project onboarding feature, dashboards, and pricing models
 
 ## Getting started
 
