@@ -2,7 +2,7 @@ import React from "react";
 
 const OnbordingMain = (props) => {
 
-  let name = 'My Name';
+  let name = 'Md Muhtasim Yasser';
 
   return (
     <div className="d-flex" style={{ width: '100vw', height: '100vh' }}>
