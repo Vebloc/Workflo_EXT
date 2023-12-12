@@ -1,0 +1,73 @@
+/* PricingTable.css */
+.container {
+  justify-content: center;
+}
+.header {
+  width: 695px;
+  height: 164px;
+  top: 178px;
+  left: 613px;
+  font-family: 'Chillax', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1,605px;
+  height: 841px;
+  top: 599px;
+  left: 158px;
+  gap: 60px;
+
+}
+
+.pricing-column {
+  font-family: 'Chillax', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 495px;
+  height: 841px;
+  padding: 60px, 60px, 80px, 60px;
+  gap: 58px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #F8F8F8;
+  overflow-y: auto;
+}
+
+.price {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.member-price-text {
+  font-size: 0.75em;
+  color: gray;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: darkgrey;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+  

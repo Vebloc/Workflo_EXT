@@ -2,11 +2,13 @@ import React from 'react';
 
 import OnboardingMain from './components/pages/OnboardingMain.jsx'
 import './App.css';
+import PricingTable from './components/pages/PricingTable.jsx';
 
 function App() {
   return (
     <div className="App">
-      <OnboardingMain />
+      {/* <OnboardingMain /> */}
+      <PricingTable />
     </div>
   );
 }
