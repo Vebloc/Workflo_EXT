@@ -3,13 +3,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .header {
+  width: 127px;
+  height: 24px;
+  margin-top: 116px;
+  padding-left: 896px;
+  padding-right: 896px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  color: #000000;
+}
+.title {
   width: 695px;
   height: 164px;
-  padding-top: 178px;
+  margin-top: 178px;
+  padding-top: 40px;
   padding-left: 613px;
   padding-right: 613px;
   margin: auto;
