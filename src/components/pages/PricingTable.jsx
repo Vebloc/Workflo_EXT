@@ -13,6 +13,8 @@ const PricingTable = () => {
             <button>Learn More</button>
             <ul className="member-price-text">PER MEMBER PER MONTH</ul>
             <br></br>
+            <hr></hr>
+            <br></br>
             <ul>
             <li>Team Sharing</li>
             <li>Custom Capacity and Workload</li>
@@ -32,6 +34,8 @@ const PricingTable = () => {
           <button>Learn More</button>
           <ul className="member-price-text">PER MEMBER PER MONTH</ul>
           <br></br>
+          <hr></hr>
+          <br></br>
           <ul>
             <li>Team Sharing</li>
             <li>Custom Capacity and Workload</li>
@@ -50,6 +54,8 @@ const PricingTable = () => {
           <h1 className="price">$19</h1>
           <button>Learn More</button>
           <ul className="member-price-text">PER MEMBER PER MONTH</ul>
+          <br></br>
+          <hr></hr>
           <br></br>
           <ul>
             <li>Team Sharing</li>
