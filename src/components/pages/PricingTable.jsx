@@ -36,18 +36,21 @@ const PricingTable = () => {
           description="Best for personal use"
           price={isYearly ? "Yearly Price" : "Free"}
           details={isYearly ? yearlyStarterPlanDetails : monthlyStarterPlanDetails}
+          isYearly={isYearly}
         />
         <Plan
           name="Premium Plan"
           description="Best for mid-sized teams"
           price={isYearly ? "Yearly Price" : "$12"}
           details={isYearly ? yearlyPremiumPlanDetails : monthlyPremiumPlanDetails}
+          isYearly={isYearly}
         />
         <Plan
           name="Team Plan"
           description="Best for multiple teams"
           price={isYearly ? "Yearly Price" : "$19"}
           details={isYearly ? yearlyTeamPlanDetails : monthlyTeamPlanDetails}
+          isYearly={isYearly}
         />
       </div>
     </div>
