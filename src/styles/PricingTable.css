@@ -1,4 +1,4 @@
-/* PricingTable.css */
+
 body {
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@ body {
 
 .toggle-container {
   margin-top: 20px;
-  margin-bottom: 50px; /* Adjust the top margin as needed */
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,6 +109,7 @@ hr {
   border: 1px solid #c7c7c7;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
+  font-size: 1.2em;
   border-radius: none;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -154,7 +155,7 @@ hr {
 
 
 .learn-more {
-  background-color: #c7c7c7;
+  background-color: #d8d8d8;
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   border: 1px solid transparent;
@@ -164,7 +165,7 @@ hr {
   cursor: pointer;
   flex: 0 0 auto;
   font-weight: 600;
-  line-height: 1.5rem;
+  line-height: 1rem;
   padding: .5rem 2rem;
   text-align: center;
   color: black;
@@ -176,7 +177,7 @@ hr {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: auto;
+  width: 35%;
 
 }
 
@@ -192,9 +193,8 @@ hr {
 }
 
 @media (min-width: 768px) {
-  .learn-more {
+  .learn-more, .monthly, .yearly {
     padding: .75rem 1.5rem;
   }
 }
-
   

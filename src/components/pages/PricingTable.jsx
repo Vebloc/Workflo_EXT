@@ -24,10 +24,10 @@ const PricingTable = () => {
       <h3 className="title">Choose The Plan That Suits You</h3>
       <div className="toggle-container">
         <button className={`monthly ${!isYearly ? "active" : "inactive"}`} onClick={toggleView} disabled={!isYearly}>
-          MONTHLY
+          Monthly
         </button>
         <button className={`yearly ${isYearly ? "active" : "inactive"}`} onClick={toggleView} disabled={isYearly}>
-          YEARLY
+          Yearly
         </button>
       </div>
       <div className="pricing-table">
