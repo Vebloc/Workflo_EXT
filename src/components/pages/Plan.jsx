@@ -8,7 +8,7 @@ const Plan = (props) => {
       <h2>{name}</h2>
       <ul>{description}</ul>
       <h1 className="price">{price}</h1>
-      <button>Learn More</button>
+      <button className="learn-more">Learn More</button>
       <ul className="member-price-text">PER MEMBER PER MONTH</ul>
       <br></br>
       <hr></hr>

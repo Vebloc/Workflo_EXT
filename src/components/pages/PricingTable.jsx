@@ -1,64 +1,53 @@
 
-import React from "react";
+import React,  {useState} from "react";
 import Plan from "./Plan";
 import '../../styles/PricingTable.css';
+import {
+  monthlyStarterPlanDetails,
+  monthlyPremiumPlanDetails,
+  monthlyTeamPlanDetails,
+  yearlyStarterPlanDetails,
+  yearlyPremiumPlanDetails,
+  yearlyTeamPlanDetails,
+} from '../../data/PlanDetails';
 
 const PricingTable = () => {
-  const starterPlanDetails = [
-    "Team Sharing",
-    "Custom Capacity and Workload",
-    "White Labeling",
-    "Live Onboarding Training",
-    "Access to Manager Services",
-    "Custom Permissions",
-    "Default Personal Views",
-    "Custom Capacity in Workload",
-  ];
+  const [isYearly, setIsYearly] = useState(false);
 
-  const premiumPlanDetails = [
-    "Team Sharing",
-    "Custom Capacity and Workload",
-    "White Labeling",
-    "Live Onboarding Training",
-    "Access to Manager Services",
-    "Custom Permissions",
-    "Default Personal Views",
-    "Custom Capacity in Workload",
-  ];
-
-  const teamPlanDetails = [
-    "Team Sharing",
-    "Custom Capacity and Workload",
-    "White Labeling",
-    "Live Onboarding Training",
-    "Access to Manager Services",
-    "Custom Permissions",
-    "Default Personal Views",
-    "Custom Capacity in Workload",
-  ];
+  const toggleView = () => {
+    setIsYearly((prevIsYearly) => !prevIsYearly);
+  };
 
   return (
     <div className="container">
       <header className="header">OUR PRICING</header>
       <h3 className="title">Choose The Plan That Suits You</h3>
+      <div className="toggle-container">
+        <button className={`monthly ${!isYearly ? "active" : "inactive"}`} onClick={toggleView} disabled={!isYearly}>
+          MONTHLY
+        </button>
+        <button className={`yearly ${isYearly ? "active" : "inactive"}`} onClick={toggleView} disabled={isYearly}>
+          YEARLY
+        </button>
+      </div>
       <div className="pricing-table">
         <Plan
           name="Starter Plan"
           description="Best for personal use"
-          price="Free"
-          details={starterPlanDetails}
+          price={isYearly ? "Yearly Price" : "Free"}
+          details={isYearly ? yearlyStarterPlanDetails : monthlyStarterPlanDetails}
         />
         <Plan
           name="Premium Plan"
           description="Best for mid-sized teams"
-          price="$12"
-          details={premiumPlanDetails}
+          price={isYearly ? "Yearly Price" : "$12"}
+          details={isYearly ? yearlyPremiumPlanDetails : monthlyPremiumPlanDetails}
         />
         <Plan
           name="Team Plan"
           description="Best for multiple teams"
-          price="$19"
-          details={teamPlanDetails}
+          price={isYearly ? "Yearly Price" : "$19"}
+          details={isYearly ? yearlyTeamPlanDetails : monthlyTeamPlanDetails}
         />
       </div>
     </div>

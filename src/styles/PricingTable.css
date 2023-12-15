@@ -4,14 +4,26 @@ body {
   justify-content: center;
   align-items: center;
   /* height: 100vh; */
+  flex-direction: column;
+  margin: 0;
+}
+
+.toggle-container {
+  margin-top: 20px;
+  margin-bottom: 50px; /* Adjust the top margin as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
   width: 127px;
   height: 24px;
   margin-top: 116px;
-  padding-left: 896px;
-  padding-right: 896px;
+  margin-left: 896px;
+  margin-right: 896px;
+  padding-top: 0px;
+  border: 0px;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -22,14 +34,13 @@ body {
   width: 695px;
   height: 164px;
   margin-top: 178px;
-  padding-top: 40px;
   padding-left: 613px;
   padding-right: 613px;
   margin: auto;
   font-family: 'Chillax', sans-serif;
   font-size: 80px;
   font-weight: 600;
-  line-height: 82px;
+  line-height: 81.52px;
   letter-spacing: 0em;
   text-align: center;
   display: flex;
@@ -87,22 +98,65 @@ li {
   margin-bottom: 5px;
 }
 
-/* button {
-  background-color: darkgrey;
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-} */
-
 hr {
   width: 75%;
   opacity: 0.4;
 }
-/* CSS */
-button {
+
+
+.monthly, .yearly {
   background-color: #c7c7c7;
+  border: 1px solid transparent;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  border-radius: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .5rem 2rem;
+  text-align: center;
+  color: black;
+  text-decoration: none black solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  margin-top: none;
+}
+
+.monthly:hover {
+  background-color: #2D2D2D;
+  color: white; 
+}
+
+
+.monthly.inactive {
+  opacity: 0.4; 
+  
+}
+
+.yearly:hover {
+  background-color: #2D2D2D;
+  color: white; 
+}
+
+
+.yearly.inactive {
+  opacity: 0.4; 
+}
+
+
+
+.learn-more {
+  background-color: #c7c7c7;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
   border: 1px solid transparent;
   border-radius: .4rem;
   box-sizing: border-box;
@@ -123,21 +177,22 @@ button {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: auto;
+
 }
 
-button:hover {
+.learn-more:hover {
   background-color: #2D2D2D;
   color: white;
 }
 
-button:focus {
+.learn-more:focus {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
 @media (min-width: 768px) {
-  .button-40 {
+  .learn-more {
     padding: .75rem 1.5rem;
   }
 }
