@@ -26,9 +26,9 @@ const PricingTable = () => {
         <button className={`monthly ${!isYearly ? "active" : "inactive"}`} onClick={toggleView} disabled={!isYearly}>
           Monthly
         </button>
-        <button className={`yearly ${isYearly ? "active" : "inactive"}`} onClick={toggleView} disabled={isYearly}>
+        {/* <button className={`yearly ${isYearly ? "active" : "inactive"}`} onClick={toggleView} disabled={isYearly}>
           Yearly
-        </button>
+        </button> */}
       </div>
       <div className="pricing-table">
         <Plan

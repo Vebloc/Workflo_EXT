@@ -9,7 +9,6 @@ body {
 }
 
 .toggle-container {
-  margin-top: 20px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -20,8 +19,8 @@ body {
   width: 127px;
   height: 24px;
   margin-top: 116px;
-  margin-left: 896px;
-  margin-right: 896px;
+  padding-left: 896px;
+  padding-right: 896px;
   padding-top: 0px;
   border: 0px;
   font-family: 'Rubik', sans-serif;
@@ -33,10 +32,9 @@ body {
 .title {
   width: 695px;
   height: 164px;
-  margin-top: 178px;
+  margin-top: 42px;
   padding-left: 613px;
   padding-right: 613px;
-  margin: auto;
   font-family: 'Chillax', sans-serif;
   font-size: 80px;
   font-weight: 600;
