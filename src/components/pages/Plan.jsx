@@ -15,7 +15,7 @@ const Plan = (props) => {
       <br></br>
       <hr></hr>
       <br></br>
-      <ul>
+      <ul className="details-list">
         {details.map((detail, index) => (
           <li key={index}>{detail}</li>
         ))}
