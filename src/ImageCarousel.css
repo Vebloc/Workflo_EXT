@@ -1,0 +1,56 @@
+.homepage-image-carousel {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 47%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  position: relative;
+}
+
+.homepage-carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+}
+
+.homepage-carousel-dot {
+  width: 7px;
+  height: 7px;
+  background-color: #e2dcdc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.homepage-carousel-dot.active {
+  background-color: #606060;
+}
+
+.homepage-image-carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: #e2dcdc;
+  border: none;
+  cursor: pointer;
+}
+
+.homepage-carousel-previous {
+  left: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.homepage-carousel-next {
+  right: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.homepage-image-carousel img {
+  width: 100%;
+  height: auto;
+}

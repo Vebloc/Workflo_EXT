@@ -1,12 +1,11 @@
 import React from 'react';
-
-import OnboardingMain from './components/pages/OnboardingMain.jsx'
+import Main from './components/pages/Main.jsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <OnboardingMain />
+      <Main />
     </div>
   );
 }

@@ -1,0 +1,301 @@
+body {
+  background-color: #EDEDF2;
+}
+
+*::selection {
+  background-color: #D8315B;
+  color: white;
+}
+
+.homepage-project-management {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(201deg, white 49.9%, #0984e3 50.1%);
+}
+
+.homepage-project-heading {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 68px;
+  margin-top: 225px;
+}
+
+.homepage-project-message {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500 bold;
+  font-size: 110%;
+  color: white;
+  margin-top: -40px;
+}
+.homepage-project-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.homepage-project-image {
+  flex-shrink: 0;
+  padding: 20px;
+  box-shadow: none;
+  max-width: 52%;
+}
+
+.homepage-red-bar {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #ededf2;
+  background-image: radial-gradient(circle, black 1.5px, transparent 1px),
+    radial-gradient(circle, black 1.5px, transparent 1px);
+  background-color: #D8315B;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 27px 27px;
+  background-position: 0 0, 13px 10px;
+  margin-bottom: 5%;
+  height: 140px;
+}
+
+.homepage-red-bar-info {
+  background-color: #D8315B;
+  font-size: 52px;
+  max-width: 1200px;
+}
+.homepage-centralized-dashboard {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.homepage-centralized-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.homepage-effortless-collaboration {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.homepage-effortless-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.homepage-seamless-video-calling {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.homepage-seamless-info {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.homepage-efficient-task-management {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.homepage-task-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.homepage-integrate-calendar-system {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.homepage-integrate-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.homepage-carousel-title {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #D8315B;
+}
+
+.homepage-carousel-message {
+  text-align: center;
+}
+
+.carousel-table {
+  background-color: white;
+}
+
+.carousel-heading {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+}
+
+.carousel-list {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.homepage-blue-bar-title {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.homepage-blue-bar-message {
+  text-align: center;
+  margin: auto;
+  font-size: 18px;
+  width: 90%;
+  padding: 4%;
+}
+
+img {
+  flex-shrink: 0;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  background-color: rgb(59, 59, 59);
+  color: rgb(255, 255, 255);
+  padding: 10px 13px 5px 13px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.get-started-btn-1 {
+  border-radius: 30px;
+  border: transparent;
+  padding: 7px 9px 7px 9px;
+  margin: 25px 0 15px 0;
+  background-color: #E67E22;
+  color: white;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  font-size: small;
+  transition: transform .4s;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.get-started-btn-1:hover {
+  transform: scale(1.1)
+}
+
+.learn-more-btn {
+  border: 0;
+  background-color: transparent;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  font-size: small;
+  color: white;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3.5px;
+  color: #D8315B;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #2D3436;
+  letter-spacing: 1.01px;
+  line-height: 30px;
+}
+
+.homepage-centralized-heading, .homepage-effortless-heading, .homepage-seamless-heading, .homepage-task-heading, .homepage-integrate-heading {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500 bold;
+  color: #2F373D;
+}
+
+.get-started-btn-2 {
+  border-radius: 30px;
+  border: transparent;
+  padding: 7px 9px 7px 9px;
+  background-color: #D8315B;
+  color: white;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  font-size: larger;
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.homepage-carousel {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50px;
+}
+
+.homepage-carousel-title {
+  flex: 1;
+  padding-top: 50px;
+}
+
+.homepage-carousel-message {
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+  width: 90%;
+  padding-bottom: 50px;
+}
+
+.homepage-blue-bar {
+  background-color: #0984E3;
+  padding: 2% 3% 3% 3%;
+}
+
+.homepage-blue-bar-info {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 1%;
+}

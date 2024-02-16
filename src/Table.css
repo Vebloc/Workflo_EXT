@@ -1,0 +1,91 @@
+.carousel-table {
+  --heading-count: 5;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+hr {
+  border: solid 2px gray;
+  width: 501%;
+  margin: 0;
+}
+
+th {
+  cursor: pointer;
+  color: #333333;
+  max-width: 40px;
+  font-size: 20px;
+}
+
+th:hover {
+  color: #D8315B;
+  border-bottom: solid 6px #D8315B;
+}
+
+th.active {
+  color: #D8315B;
+  border-bottom: solid 6px #D8315B;
+}
+
+.carousel-list {
+  padding: 0% 0 10% 100px;
+  margin: 0;
+}
+
+ul li::marker {
+  color: #D8315B;
+  font-size: large;
+}
+
+.carousel-message {
+  max-width: 500px;
+  width: 500px;
+  padding-left: 85px;
+  text-align: left;
+  color: #2D3436;
+}
+
+.carousel-heading {
+  padding-left: 85px;
+  color: #2F373D;
+  font-size: 52.5px;
+  height: 62.4px;
+  width: 500px;
+}
+
+li {
+  color: #2D3436;
+  padding: 1%;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.carousel-photo {
+  max-width: 575px;
+  margin: 150px 0 70px 85px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: table-cell;
+}
+
+.carousel-marketing {
+  margin-top: 45x;
+}
+
+.carousel-engineering {
+  margin-top: 73px;
+}
+
+.carousel-client-management {
+  margin-top: -20px;
+}
