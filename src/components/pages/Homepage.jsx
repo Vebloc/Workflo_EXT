@@ -6,6 +6,7 @@ import ImageCarousel from "./ImageCarousel.jsx";
 
 const Homepage = () => {
 
+  const Logo = "https://workflo.com/wp-content/uploads/2023/10/logo-black.png"
   const HomeImage = "https://workflo.com/wp-content/uploads/2023/08/Hero-1024x792.png";
 
   const carousel1Images = [
@@ -72,22 +73,22 @@ const Homepage = () => {
 
 return (
   <div>
-    {/* <header className="navigation">
+    <header className="navigation">
       <Link to="/" className="homepage-link">
-        <img src={Logo} alt="Logo"/>
+        <img src={Logo} alt="Logo" className="homepage-logo"/>
       </Link>
       <nav className="navigation-menu">
-        <NavLink to="/" className="nav-link-home">
-          Home
-        </NavLink>
-        <NavLink to="/pricing" className="nav-link-pricing">
-          Pricing
-          </NavLink>
-        <NavLink to="/contact-us" className="nav-link-contact">
-          Contact Us
-          </NavLink>
+        <Link to="/pricing">
+          <p className="nav-link-pricing">PRICING</p>
+        </Link>
+        <Link to="/contact">
+          <p className="nav-link-contact">CONTACT US</p>
+        </Link>
+        <Link to="/signin" >
+          <button className="nav-link-launch">LAUNCH APP</button>
+        </Link>
       </nav> 
-    </header> */}
+    </header>
     <div className="homepage-project-management">
       <div className="homepage-project-info">
         <h1 className="homepage-project-heading">True all in one project management tool</h1>
@@ -99,7 +100,7 @@ return (
           Learn More →
         </button>
       </div>
-      <img className= "homepage-project-image" src={HomeImage} alt="Multi-media representation"/>
+      <img className= "homepage-project-image" src={Logo} alt="Multi-media representation"/>
     </div>
     <div className="homepage-red-bar">
       <h1 className="homepage-red-bar-info">Out with the old, in with Workflo: One Tool, Total Team Synergy</h1>

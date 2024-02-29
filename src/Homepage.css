@@ -7,6 +7,80 @@ body {
   color: white;
 }
 
+.navigation {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage-link {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.homepage-logo {
+  max-width: 100px;
+  width: 100px;
+  max-height: 20px;
+  height: 20px;
+  box-shadow: none;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link-pricing {
+  padding-right: 20px;
+  color: #121212;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: light;
+}
+
+.nav-link-pricing:hover, .nav-link-pricing:focus {
+  color: #D8315B;
+  text-decoration: underline 2px #D8315B;
+  transition: .4s;
+}
+
+.nav-link-contact {
+  padding-right: 20px;
+  color: #121212;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: light;
+}
+
+.nav-link-contact:hover, .nav-link-contact:focus {
+  color: #D8315B;
+  text-decoration: underline 2px #D8315B;
+  transition: .4s;
+}
+
+.nav-link-launch {
+  cursor: pointer;
+  background: #D8315B;
+  border: #D8315B;
+  border-radius: 30px;
+  padding-right: 20px;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 35px;
+  letter-spacing: 1.05px;
+}
+
 .homepage-project-management {
   display: flex;
   align-items: center;
@@ -19,6 +93,7 @@ body {
   color: white;
   font-size: 68px;
   margin-top: 225px;
+  max-width: 700px;
 }
 
 .homepage-project-message {
@@ -298,4 +373,77 @@ p {
   margin: auto;
   width: 50%;
   padding: 1%;
+}
+
+@media (max-width: 780px) { 
+  .homepage-project-heading {
+    max-width: 600px;
+    margin-top: 0px;
+  }
+
+  .homepage-centralized-dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homepage-effortless-collaboration {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .homepage-seamless-video-calling {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homepage-efficient-task-management {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .homepage-integrate-calendar-system {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-photo {
+    display: none;
+  }
+
+  .homepage-centralized-info {
+    padding-bottom: 0;
+  }
+  
+  .homepage-effortless-info {
+    padding-bottom: 0;
+  }
+
+  .homepage-seamless-info {
+    padding-bottom: 0;
+  }
+
+  .homepage-task-info {
+    padding-bottom: 0;
+  }
+
+  .homepage-integrate-info {
+    padding-bottom: 0;
+  }
+  
+  .homepage-blue-bar-info {
+    margin: 0;
+    width: 700px;
+  }
+
+  .homepage-blue-bar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .homepage-project-management {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    background: linear-gradient(201deg, #0984e3 49.9%, #0984e3 50.1%);
+  }
 }

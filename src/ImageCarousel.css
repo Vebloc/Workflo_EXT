@@ -54,3 +54,18 @@
   width: 100%;
   height: auto;
 }
+
+@media (max-width: 780px) {  
+  .homepage-image-carousel img {
+    height: 300px;
+    width: 550px;
+  }
+
+  .homepage-carousel-next {
+    margin-right: -100px;
+  }
+
+  .homepage-carousel-previous {
+    margin-left: -100px;
+  }
+}
